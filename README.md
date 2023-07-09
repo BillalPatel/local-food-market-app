@@ -18,7 +18,7 @@
 - CI/CD
     - GitHub
 - Hosting
-    - AWS (Probably)
+    - Vercel
 - IaC (If required)
     - Terraform (Maybe)
 - Linting
