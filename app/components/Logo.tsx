@@ -1,7 +1,7 @@
 "use server"
 
 import Image from 'next/image'
-import LogoImage from '../../logo.svg' 
+import LogoImage from '../../images/logo.svg' 
 
 export const Logo = () => {
   return (

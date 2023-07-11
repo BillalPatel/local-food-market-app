@@ -1,26 +1,22 @@
 import Image from "next/image";
 import landingImage from "../table.jpg";
-import Card from "./components/Card";
+import Card from "./components/ui/Card/Card";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
-      {/* <main className="flex justify-center items-center h-screen bg-gray-100"> */}
-      <div className="flex m-bt=0 min-h-screen w-full">
+      <div className="flex m-bt=0 min-h-screen">
         <div
           className="bg-image w-full bg-center bg-no-repeat"
           style={{
             backgroundImage: "url('https://placehold.co/1000x700');",
           }}
-        ></div>
-        <div className="">
-          {/* <input
-              className="food-search border-r-4"
-              placeholder="What are you feeling?"
-            />
-            <button className="food-search border-r-4">Click me</button> */}
+        >
         </div>
-        {/* </div> */}
+      </div>
+      <div className="flex items-center slider h-28 m-3.5">
+        <div className="border-solid h-3/4 w-4/5 bg-red-400 rounded-xl">Slider 1</div>
+        {/* <div className="border-solid h-3/4 w-4/5 bg-red-400 rounded-xl">Slider 2</div> */}
       </div>
       <Card />
       <Card />

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import cakeImage from "../../cake.jpg";
+import cakeImage from '../../../../images/cake.jpg'
 
 export const Card = () => {
   return (
