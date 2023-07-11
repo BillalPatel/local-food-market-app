@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
 import {
   IoBagOutline,
   IoReorderThreeOutline,
   IoSearchOutline,
-} from "react-icons/io5";
+} from 'react-icons/io5';
 
 export const HeaderNav = () => {
   return (

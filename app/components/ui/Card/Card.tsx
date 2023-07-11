@@ -1,9 +1,9 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
-import cakeImage from '../../../../images/cake.jpg'
+import cakeImage from '../../../../images/cake.jpg';
 
-export const Card = () => {
+export default function Card() {
   return (
     <Link href="/404" className="box">
       <div className=" bg-white h-96 flex items-center justify-center shadow-lg">
@@ -30,6 +30,4 @@ export const Card = () => {
       </div>
     </Link>
   );
-};
-
-export default Card;
+}

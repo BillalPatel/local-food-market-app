@@ -1,4 +1,4 @@
-import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import { HamburgerMenuIcon } from '@radix-ui/react-icons';
 
 export const HamburgerIcon = () => {
   return (
